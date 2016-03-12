@@ -1,11 +1,30 @@
 {
-    "cordova-plugin-device": {
+    "com.ionic.keyboard": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-device"
+            "id": "com.ionic.keyboard"
+        }
+    },
+    "com.phonegap.plugins.barcodescanner": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wildabeast/BarcodeScanner.git",
+            "subdir": "."
+        }
+    },
+    "phonegap-plugin-barcodescanner": {
+        "source": {
+            "type": "registry",
+            "id": "phonegap-plugin-barcodescanner"
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "org.apache.cordova.console": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.console"
+        }
     },
     "cordova-plugin-console": {
         "source": {
@@ -15,43 +34,16 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-whitelist": {
+    "org.apache.cordova.device": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-whitelist"
-        },
-        "is_top_level": true,
-        "variables": {}
+            "id": "org.apache.cordova.device"
+        }
     },
-    "cordova-plugin-splashscreen": {
+    "cordova-plugin-device": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-splashscreen"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-statusbar": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-statusbar"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "ionic-plugin-keyboard": {
-        "source": {
-            "type": "registry",
-            "id": "ionic-plugin-keyboard"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "phonegap-plugin-barcodescanner": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/wildabeast/BarcodeScanner.git",
-            "subdir": "."
+            "id": "cordova-plugin-device"
         },
         "is_top_level": true,
         "variables": {}
